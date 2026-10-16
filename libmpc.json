@@ -1,5 +1,6 @@
 {
     "name": "libmpc",
+    "version": "1.0.1",
     "description": "Musepack decoder",
     "filters":["mpcdec"],
     "help": "This filter decodes Musepack (.mpc, stream versions 7 and 8) audio using libmpcdec.",
