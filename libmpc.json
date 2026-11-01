@@ -1,6 +1,6 @@
 {
     "name": "libmpc",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Musepack decoder",
     "filters":["mpcdec"],
     "help": "This filter decodes Musepack (.mpc, stream versions 7 and 8) audio using libmpcdec.",
@@ -15,7 +15,7 @@
       "mpc" : "audio",
       "mpp" : "audio"
     },
-    "using": ["solver_minimal_1", "solver_1"],
+    "using": ["mm_solver_minimal_1.0.1", "mm_solver_1.0.1"],
     "patents": {
         "status": "royalty-free",
         "note": "Musepack",
