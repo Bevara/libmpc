@@ -2,20 +2,29 @@
     "name": "libmpc",
     "version": "1.0.2",
     "description": "Musepack decoder",
-    "filters":["mpcdec"],
+    "filters": [
+        "mpcdec"
+    ],
     "help": "This filter decodes Musepack (.mpc, stream versions 7 and 8) audio using libmpcdec.",
     "support": [
         "audio"
     ],
-    "sources":"https://bevara.ddns.net/sources/libmpc.accessor",
-    "filter_source":{
-        "mpcdec" : "dec_mpc.c"
+    "sources": "https://bevara.ddns.net/sources/libmpc.accessor",
+    "filter_source": {
+        "mpcdec": "dec_mpc.c"
     },
-    "extension":{
-      "mpc" : "audio",
-      "mpp" : "audio"
+    "extension": {
+        "mpc": "audio",
+        "mpp": "audio"
     },
-    "using": ["mm_solver_minimal_1.0.1", "mm_solver_1.0.1", "mm_solver_1.0.2", "mm_solver_1.0.3", "mm_solver_1.0.4"],
+    "using": [
+        "mm_solver_minimal_1.0.1",
+        "mm_solver_1.0.1",
+        "mm_solver_1.0.2",
+        "mm_solver_1.0.3",
+        "mm_solver_1.0.4",
+        "mm_solver_1.0.5"
+    ],
     "patents": {
         "status": "royalty-free",
         "note": "Musepack",
